@@ -10,6 +10,7 @@ namespace WorldOfSoftuniRPG
     {
         static void Main(string[] args)
         {
+            string start = "start";
         }
     }
 }
