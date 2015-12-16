@@ -7,8 +7,8 @@
     <ProjectGuid>{D29BD89C-212B-40BB-B3B8-08F011EE9200}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WorldOfSoftuniRPG</RootNamespace>
-    <AssemblyName>WorldOfSoftuniRPG</AssemblyName>
+    <RootNamespace>WorldOfSoftUniGAME</RootNamespace>
+    <AssemblyName>WorldOfSoftUniGAME</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,11 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="MainGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Core\" />
+    <Folder Include="CustomException\" />
+    <Folder Include="Enumerations\" />
+    <Folder Include="Forms\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Models\Calculator\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

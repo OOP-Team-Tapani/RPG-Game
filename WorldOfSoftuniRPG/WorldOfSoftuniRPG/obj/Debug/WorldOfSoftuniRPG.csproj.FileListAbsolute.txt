@@ -1,2 +1,0 @@
-C:\Users\Georgi\Documents\Visual Studio 2013\Projects\WorldOfSoftuniRPG\WorldOfSoftuniRPG\bin\Debug\WorldOfSoftuniRPG.exe.config
-C:\Users\Borislav\Desktop\RPG-Game\WorldOfSoftuniRPG\WorldOfSoftuniRPG\bin\Debug\WorldOfSoftuniRPG.exe.config
