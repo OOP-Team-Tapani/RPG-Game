@@ -54,6 +54,8 @@
     <Folder Include="Forms\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Models\Calculator\" />
+    <Folder Include="Models\Fields\" />
+    <Folder Include="Models\Players\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
