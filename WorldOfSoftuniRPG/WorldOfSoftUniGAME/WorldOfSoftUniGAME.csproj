@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\Engine.cs" />
+    <Compile Include="Interfaces\IUnit.cs" />
     <Compile Include="MainGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -52,7 +53,6 @@
     <Folder Include="CustomException\" />
     <Folder Include="Enumerations\" />
     <Folder Include="Forms\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="Models\Calculator\" />
     <Folder Include="Models\Fields\" />
     <Folder Include="Models\Players\" />
