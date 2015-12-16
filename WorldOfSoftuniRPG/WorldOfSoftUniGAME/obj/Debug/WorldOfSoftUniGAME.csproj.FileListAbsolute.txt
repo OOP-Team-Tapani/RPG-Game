@@ -1,2 +1,4 @@
 C:\Users\Borislav\Desktop\RPG-Game\WorldOfSoftuniRPG\WorldOfSoftUniGAME\bin\Debug\WorldOfSoftUniGAME.exe.config
 C:\Users\PC-PC\Desktop\RPG-Game\WorldOfSoftuniRPG\WorldOfSoftUniGAME\bin\Debug\WorldOfSoftUniGAME.exe.config
+C:\Users\Georgi\Desktop\RPG-Game\WorldOfSoftuniRPG\WorldOfSoftUniGAME\bin\Debug\WorldOfSoftUniGAME.exe.config
+C:\Users\Georgi\Desktop\RPG-Game\WorldOfSoftuniRPG\WorldOfSoftUniGAME\obj\Debug\WorldOfSoftUniGAME.csprojResolveAssemblyReference.cache

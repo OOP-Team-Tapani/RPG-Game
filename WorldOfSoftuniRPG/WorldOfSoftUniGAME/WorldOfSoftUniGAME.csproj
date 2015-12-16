@@ -42,7 +42,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\Engine.cs" />
+    <Compile Include="Interfaces\IAttack.cs" />
+    <Compile Include="Interfaces\IDefence.cs" />
+    <Compile Include="Interfaces\IDrop.cs" />
+    <Compile Include="Interfaces\IHeal.cs" />
+    <Compile Include="Interfaces\IInventory.cs" />
+    <Compile Include="Interfaces\IItem.cs" />
     <Compile Include="Interfaces\IUnit.cs" />
+    <Compile Include="Interfaces\IUpdatable.cs" />
     <Compile Include="MainGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -55,6 +62,8 @@
     <Folder Include="Forms\" />
     <Folder Include="Models\Calculator\" />
     <Folder Include="Models\Fields\" />
+    <Folder Include="Models\Helper\" />
+    <Folder Include="Models\Items\" />
     <Folder Include="Models\Players\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
