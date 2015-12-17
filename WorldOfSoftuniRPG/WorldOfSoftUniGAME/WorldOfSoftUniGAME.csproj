@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\Engine.cs" />
+    <Compile Include="Core\Game.cs" />
     <Compile Include="Interfaces\IAttack.cs" />
     <Compile Include="Interfaces\IDefence.cs" />
     <Compile Include="Interfaces\IDrop.cs" />
@@ -55,13 +56,7 @@
     <Compile Include="Models\Items\AttackItems\Sword.cs" />
     <Compile Include="Models\Items\DefenseItems\DefenseItem.cs" />
     <Compile Include="Models\Items\DefenseItems\Helmet.cs" />
-    <Compile Include="Models\Items\HealthItems\Potion.cs" />
     <Compile Include="Models\Items\Item.cs" />
-    <Compile Include="Models\Items\UniqueItem\Belt.cs" />
-    <Compile Include="Models\Items\UniqueItem\Boots.cs" />
-    <Compile Include="Models\Items\UniqueItem\Chest.cs" />
-    <Compile Include="Models\Items\UniqueItem\DefenceAttack.cs" />
-    <Compile Include="Models\Items\UniqueItem\Pants.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
