@@ -51,6 +51,17 @@
     <Compile Include="Interfaces\IUnit.cs" />
     <Compile Include="Interfaces\IUpdatable.cs" />
     <Compile Include="MainGame.cs" />
+    <Compile Include="Models\Items\AttackItems\AttackItem.cs" />
+    <Compile Include="Models\Items\AttackItems\Sword.cs" />
+    <Compile Include="Models\Items\DefenseItems\DefenseItem.cs" />
+    <Compile Include="Models\Items\DefenseItems\Helmet.cs" />
+    <Compile Include="Models\Items\HealthItems\Potion.cs" />
+    <Compile Include="Models\Items\Item.cs" />
+    <Compile Include="Models\Items\UniqueItem\Belt.cs" />
+    <Compile Include="Models\Items\UniqueItem\Boots.cs" />
+    <Compile Include="Models\Items\UniqueItem\Chest.cs" />
+    <Compile Include="Models\Items\UniqueItem\DefenceAttack.cs" />
+    <Compile Include="Models\Items\UniqueItem\Pants.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -63,7 +74,6 @@
     <Folder Include="Models\Calculator\" />
     <Folder Include="Models\Fields\" />
     <Folder Include="Models\Helper\" />
-    <Folder Include="Models\Items\" />
     <Folder Include="Models\Players\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
