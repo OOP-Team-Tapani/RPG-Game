@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="Core\Engine.cs" />
     <Compile Include="Core\Game.cs" />
+    <Compile Include="Enumerations\ExitGameReason.cs" />
+    <Compile Include="Enumerations\HeroType.cs" />
     <Compile Include="Interfaces\IAttack.cs" />
     <Compile Include="Interfaces\IDefence.cs" />
     <Compile Include="Interfaces\IDrop.cs" />
@@ -64,7 +66,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CustomException\" />
-    <Folder Include="Enumerations\" />
     <Folder Include="Forms\" />
     <Folder Include="Models\Calculator\" />
     <Folder Include="Models\Fields\" />
