@@ -43,8 +43,13 @@
   <ItemGroup>
     <Compile Include="Core\Engine.cs" />
     <Compile Include="Core\Game.cs" />
+    <Compile Include="Enumerations\AllItems.cs" />
+    <Compile Include="Enumerations\EnemyType.cs" />
     <Compile Include="Enumerations\ExitGameReason.cs" />
     <Compile Include="Enumerations\HeroType.cs" />
+    <Compile Include="Enumerations\ItemType.cs" />
+    <Compile Include="Enumerations\Operation.cs" />
+    <Compile Include="Enumerations\PotionType.cs" />
     <Compile Include="Interfaces\IAttack.cs" />
     <Compile Include="Interfaces\IDefence.cs" />
     <Compile Include="Interfaces\IDrop.cs" />
