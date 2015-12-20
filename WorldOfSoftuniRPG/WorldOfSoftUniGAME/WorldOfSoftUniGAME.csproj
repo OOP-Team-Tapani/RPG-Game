@@ -59,6 +59,9 @@
     <Compile Include="Interfaces\IUnit.cs" />
     <Compile Include="Interfaces\IUpdatable.cs" />
     <Compile Include="MainGame.cs" />
+    <Compile Include="Models\Calculator\ItemTypeCalculator.cs" />
+    <Compile Include="Models\Enemies\Enemy.cs" />
+    <Compile Include="Models\Enemies\EnemyFactory.cs" />
     <Compile Include="Models\Items\AttackItems\AttackItem.cs" />
     <Compile Include="Models\Items\AttackItems\Sword.cs" />
     <Compile Include="Models\Items\DefenseItems\DefenseItem.cs" />
@@ -72,7 +75,6 @@
   <ItemGroup>
     <Folder Include="CustomException\" />
     <Folder Include="Forms\" />
-    <Folder Include="Models\Calculator\" />
     <Folder Include="Models\Fields\" />
     <Folder Include="Models\Helper\" />
     <Folder Include="Models\Players\" />
