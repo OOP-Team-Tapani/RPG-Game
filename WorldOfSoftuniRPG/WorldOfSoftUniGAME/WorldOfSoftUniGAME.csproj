@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="Core\Engine.cs" />
     <Compile Include="Core\Game.cs" />
+    <Compile Include="CustomException\InputException.cs" />
+    <Compile Include="CustomException\InvalidEnemyException.cs" />
     <Compile Include="Enumerations\AllItems.cs" />
     <Compile Include="Enumerations\EnemyType.cs" />
     <Compile Include="Enumerations\ExitGameReason.cs" />
@@ -62,6 +64,12 @@
     <Compile Include="Models\Calculator\ItemTypeCalculator.cs" />
     <Compile Include="Models\Enemies\Enemy.cs" />
     <Compile Include="Models\Enemies\EnemyFactory.cs" />
+    <Compile Include="Models\Fields\BattleField.cs" />
+    <Compile Include="Models\Fields\Constants.cs" />
+    <Compile Include="Models\Fields\Field.cs" />
+    <Compile Include="Models\Fields\Inventory.cs" />
+    <Compile Include="Models\Fields\MarketField.cs" />
+    <Compile Include="Models\Fields\Validator.cs" />
     <Compile Include="Models\Items\AttackItems\AttackItem.cs" />
     <Compile Include="Models\Items\AttackItems\Sword.cs" />
     <Compile Include="Models\Items\DefenseItems\DefenseItem.cs" />
@@ -73,9 +81,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CustomException\" />
+    <Folder Include="bin\" />
     <Folder Include="Forms\" />
-    <Folder Include="Models\Fields\" />
     <Folder Include="Models\Helper\" />
     <Folder Include="Models\Players\" />
   </ItemGroup>
