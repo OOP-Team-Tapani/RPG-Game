@@ -1,6 +1,6 @@
-﻿namespace WorldOfSoftUniGAME
+﻿namespace WorldOfSoftuniRPG
 {
-    using WorldOfSoftUniGAME.Forms;
+    using WorldOfSoftuniRPG.Forms;
     using Core;
     using System;
     using System.Collections.Generic;

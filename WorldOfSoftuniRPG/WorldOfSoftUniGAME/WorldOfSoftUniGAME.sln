@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldOfSoftUniGAME", "WorldOfSoftUniGAME.csproj", "{D29BD89C-212B-40BB-B3B8-08F011EE9200}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldOfSoftuniRPG", "WorldOfSoftuniRPG.csproj", "{BF481753-2F2B-4828-8006-D2D32CD71DA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D29BD89C-212B-40BB-B3B8-08F011EE9200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D29BD89C-212B-40BB-B3B8-08F011EE9200}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D29BD89C-212B-40BB-B3B8-08F011EE9200}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D29BD89C-212B-40BB-B3B8-08F011EE9200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF481753-2F2B-4828-8006-D2D32CD71DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF481753-2F2B-4828-8006-D2D32CD71DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF481753-2F2B-4828-8006-D2D32CD71DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF481753-2F2B-4828-8006-D2D32CD71DA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

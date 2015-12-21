@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WorldOfSoftUniGAME")]
+[assembly: AssemblyTitle("WorldOfSoftuniRPG")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WorldOfSoftUniGAME")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
+[assembly: AssemblyProduct("WorldOfSoftuniRPG")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9987b0e6-aab9-4dba-9c62-5673d64fca31")]
+[assembly: Guid("a49dcfeb-4b6c-43b3-9bde-ddf854341281")]
 
 // Version information for an assembly consists of the following four values:
 //

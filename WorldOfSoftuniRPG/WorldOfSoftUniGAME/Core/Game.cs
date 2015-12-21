@@ -3,7 +3,7 @@
     using System;
     using System.Threading;
     using CustomExceptions;
-    using System.Media;
+   
 
     public struct Game
     {
@@ -23,6 +23,9 @@
 
         public void Stop()
         {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Good Bye.");
+            Console.ForegroundColor = ConsoleColor.White;
             if (this.thread != null)
             {
                 this.thread.Abort();
@@ -31,7 +34,7 @@
 
         private void Run()
         {
-            int tick = 0;
+            
             while (IsGameRunning)
             {
                 try

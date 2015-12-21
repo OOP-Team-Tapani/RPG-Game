@@ -6,7 +6,7 @@
         Hydra,
         Supremus,
         Rotface,
-        LichKing,
+        Lichking,
         Deathwing
     }
 }

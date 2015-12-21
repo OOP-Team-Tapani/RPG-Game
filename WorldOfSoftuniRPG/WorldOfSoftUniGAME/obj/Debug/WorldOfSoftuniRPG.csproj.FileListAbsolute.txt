@@ -1,0 +1,9 @@
+C:\Users\Borislav\Desktop\WorldOfSoftUniGAME\bin\Debug\WorldOfSoftuniRPG.exe
+C:\Users\Borislav\Desktop\WorldOfSoftUniGAME\bin\Debug\WorldOfSoftuniRPG.pdb
+C:\Users\Borislav\Desktop\WorldOfSoftUniGAME\obj\Debug\WorldOfSoftuniRPG.csprojResolveAssemblyReference.cache
+C:\Users\Borislav\Desktop\WorldOfSoftUniGAME\obj\Debug\WorldOfSoftuniRPG.Forms.Frm_HeroSelection.resources
+C:\Users\Borislav\Desktop\WorldOfSoftUniGAME\obj\Debug\WorldOfSoftuniRPG.Forms.Frm_Menu.resources
+C:\Users\Borislav\Desktop\WorldOfSoftUniGAME\obj\Debug\WorldOfSoftuniRPG.Properties.Resources.resources
+C:\Users\Borislav\Desktop\WorldOfSoftUniGAME\obj\Debug\WorldOfSoftuniRPG.csproj.GenerateResource.Cache
+C:\Users\Borislav\Desktop\WorldOfSoftUniGAME\obj\Debug\WorldOfSoftuniRPG.exe
+C:\Users\Borislav\Desktop\WorldOfSoftUniGAME\obj\Debug\WorldOfSoftuniRPG.pdb

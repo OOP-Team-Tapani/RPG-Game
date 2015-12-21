@@ -15,7 +15,7 @@
             { EnemyType.Hydra, 0 },
             { EnemyType.Supremus, 0 },
             { EnemyType.Rotface, 0 },
-            { EnemyType.LichKing, 0 },
+            { EnemyType.Lichking, 0 },
             { EnemyType.Deathwing, 0 }
         };
 

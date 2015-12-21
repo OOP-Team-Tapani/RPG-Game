@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF481753-2F2B-4828-8006-D2D32CD71DA2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WorldOfSoftuniRPG</RootNamespace>
+    <AssemblyName>WorldOfSoftuniRPG</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\HeroSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HeroSelection.Designer.cs">
+      <DependentUpon>HeroSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\IDefence.cs" />
+    <Compile Include="Interfaces\IHeal.cs" />
+    <Compile Include="Interfaces\IInventory.cs" />
+    <Compile Include="Core\Game.cs" />
+    <Compile Include="CustomExceptions\InputException.cs" />
+    <Compile Include="CustomExceptions\InvalidEnemyException.cs" />
+    <Compile Include="Enumerations\AllItems.cs" />
+    <Compile Include="Enumerations\ExitGameReason.cs" />
+    <Compile Include="Enumerations\HeroType.cs" />
+    <Compile Include="Enumerations\Operation.cs" />
+    <Compile Include="Enumerations\PotionType.cs" />
+    <Compile Include="Models\Calculator\ItemTypeCalculator.cs" />
+    <Compile Include="Models\Fields\Constants.cs" />
+    <Compile Include="Models\Fields\Inventory.cs" />
+    <Compile Include="Models\Fields\BattleField.cs" />
+    <Compile Include="Models\Fields\MarketField.cs" />
+    <Compile Include="Models\Fields\Field.cs" />
+    <Compile Include="Models\Fields\Validator.cs" />
+    <Compile Include="Interfaces\IAttack.cs" />
+    <Compile Include="Interfaces\IDrop.cs" />
+    <Compile Include="Interfaces\IItem.cs" />
+    <Compile Include="Interfaces\IUnit.cs" />
+    <Compile Include="Core\Engine.cs" />
+    <Compile Include="Enumerations\ItemType.cs" />
+    <Compile Include="Models\Helper\Helper.cs" />
+    <Compile Include="Models\Items\AttackItems\AttackItem.cs" />
+    <Compile Include="Models\Items\AttackItems\Sword.cs" />
+    <Compile Include="Models\Items\DefenseItems\DefenseItem.cs" />
+    <Compile Include="Models\Items\DefenseItems\Helmet.cs" />
+    <Compile Include="Models\Items\HealthItems\Potion.cs" />
+    <Compile Include="Models\Items\Item.cs" />
+    <Compile Include="Models\Items\UniqueItem\Belt.cs" />
+    <Compile Include="Models\Items\UniqueItem\Boots.cs" />
+    <Compile Include="Models\Items\UniqueItem\Chest.cs" />
+    <Compile Include="Models\Items\UniqueItem\DefenceAttack.cs" />
+    <Compile Include="Models\Items\UniqueItem\Pants.cs" />
+    <Compile Include="Models\Players\Enemies\EnemyFactory.cs" />
+    <Compile Include="Models\Players\Mage.cs" />
+    <Compile Include="Models\Players\Enemies\Enemy.cs" />
+    <Compile Include="Enumerations\EnemyType.cs" />
+    <Compile Include="Models\Players\Hero.cs" />
+    <Compile Include="MainGame.cs" />
+    <Compile Include="Models\Players\Warrior.cs" />
+    <Compile Include="Models\Players\PlayerObject.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\HeroSelection.resx">
+      <DependentUpon>HeroSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Forms\Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

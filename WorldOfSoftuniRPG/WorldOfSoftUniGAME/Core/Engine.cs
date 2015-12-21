@@ -26,11 +26,11 @@
                     }
                     break;
                 case ExitGameReason.PlayerWinTheGame:
-                    for (int i = 0; i < 6; i++)
+                    for (int i = 0; i < 10; i++)
                     {
-                        Thread.Sleep(200);
+                        Thread.Sleep(300);
                         Console.ForegroundColor = ConsoleColor.DarkCyan;
-                        Console.WriteLine("Congratulations! You Win.     Congratulations! You Win.     Congratulations! You Win.");
+                        Console.WriteLine("Congratulations! You Win.  Congratulations! You Win.  Congratulations! You Win.");
                     }
                     break;
             }
@@ -40,8 +40,8 @@
         public void CommandHandler(string line)
         {
             string[] lineSplit = line.Split(' ');
-            string comand = lineSplit[0];
-
+            string comand = lineSplit[0].ToLower();
+            
             switch (comand)
             {
                 case Constants.BattleFieldCommand:
@@ -55,7 +55,7 @@
                         throw new InputException("Cannot attack the air.");
                     }
 
-                    string target = lineSplit[1].ToLower();
+                    string target = lineSplit[1];
 
                     switch (target)
                     {
@@ -139,9 +139,9 @@
                 isAllEnemiesAreKilled = false;
             }
 
-            if (BattleField.AttackedEnemies[EnemyType.LichKing] < 3)
+            if (BattleField.AttackedEnemies[EnemyType.Lichking] < 3)
             {
-                BattleField.Enemies.Add(EnemyFactory.Enemy(EnemyType.LichKing));
+                BattleField.Enemies.Add(EnemyFactory.Enemy(EnemyType.Lichking));
                 isAllEnemiesAreKilled = false;
             }
 
